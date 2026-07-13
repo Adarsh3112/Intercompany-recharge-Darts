@@ -1,13 +1,13 @@
-enum 50101 "MIR Recharge Status"
+enum 50102 "ICR Request Status"
 {
     Extensible = true;
-    Caption = 'MIR Recharge Status';
+    Caption = 'ICR Request Status';
 
-    value(0; Draft)
+    value(0; "Draft")
     {
         Caption = 'Draft';
     }
-    value(1; Validated)
+    value(1; "Validated")
     {
         Caption = 'Validated';
     }
@@ -15,23 +15,23 @@ enum 50101 "MIR Recharge Status"
     {
         Caption = 'Pending Approval';
     }
-    value(3; Approved)
+    value(3; "Approved")
     {
         Caption = 'Approved';
     }
-    value(4; Rejected)
+    value(4; "Rejected")
     {
         Caption = 'Rejected';
     }
-    value(5; Posted)
+    value(5; "Posted")
     {
         Caption = 'Posted';
     }
-    value(6; Reversed)
+    value(6; "Reversed")
     {
         Caption = 'Reversed';
     }
-    value(7; Closed)
+    value(7; "Closed")
     {
         Caption = 'Closed';
     }
